@@ -97,12 +97,14 @@
 
   .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 24px;
     padding: 0 20px 60px;
-    max-width: 1400px;
-    margin: 0 auto;
+    margin: 0 20px;
   }
+
+  @media (min-width: 1650px) and (max-width: 2560px) { .grid { grid-template-columns: repeat(6, 1fr); } }
+  @media (min-width: 2561px) { .grid { grid-template-columns: repeat(8, 1fr); } }
 
   .card {
     background: #161616;
