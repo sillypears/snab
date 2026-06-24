@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shot n' a Beer</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=Eater&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #1f0f08;
+    color: #eee;
+    min-height: 100vh;
+  }
+
+  .header {
+    text-align: center;
+    padding: 80px 20px 100px;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #1e40af, #3b82f6, #2563eb);
+  }
+
+  .header::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: #1f0f08;
+    clip-path: ellipse(70% 100% at 50% 100%);
+  }
+
+  .header h1 {
+    font-size: clamp(3rem, 10vw, 6rem);
+    font-weight: 400;
+    font-family: 'Eater', cursive;
+    color: #f97316;
+    letter-spacing: 0.04em;
+    position: relative;
+    z-index: 1;
+    text-shadow: 0 2px 20px rgba(249, 115, 22, 0.3);
+  }
+
+  .header .subtitle {
+    font-size: 1.1rem;
+    color: rgba(255,255,255,0.7);
+    margin-top: 8px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+  }
+
+  .header .count {
+    margin-top: 12px;
+    font-size: 0.9rem;
+    color: rgba(255,255,255,0.5);
+    position: relative;
+    z-index: 1;
+  }
+
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    padding: 0 20px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .controls input,
+  .controls select {
+    padding: 10px 16px;
+    border-radius: 12px;
+    border: 1px solid #333;
+    background: #1a1a1a;
+    color: #eee;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .controls input:focus,
+  .controls select:focus {
+    border-color: #3b82f6;
+  }
+
+  .controls input { flex: 1; min-width: 200px; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+    padding: 0 20px 60px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .card {
+    background: #161616;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #222;
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+    position: relative;
+  }
+
+  .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 60px rgba(59, 130, 246, 0.15);
+    border-color: #3b82f6;
+  }
+
+  .card-image {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    display: block;
+    background: #222;
+    transition: transform 0.5s;
+  }
+
+  .card:hover .card-image {
+    transform: scale(1.03);
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+
+  .card-number {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #666;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .card-colorway {
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin: 4px 0 8px;
+    line-height: 1.3;
+  }
+
+  .card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+
+  .card-meta .tag {
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    background: #222;
+    color: #aaa;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .tag.fcfs { background: rgba(249, 115, 22, 0.15); color: #f97316; }
+  .tag.rng { background: rgba(59, 130, 246, 0.15); color: #3b82f6; }
+  .tag.trivia { background: rgba(255, 215, 0, 0.15); color: #ffd700; }
+
+  .tag svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  .card-details {
+    font-size: 0.85rem;
+    color: #888;
+    line-height: 1.6;
+  }
+
+  .card-details strong { color: #bbb; }
+
+  .card-links {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #222;
+  }
+
+  .card-links a {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s, transform 0.2s;
+    color: #888;
+  }
+
+  .card-links a:hover {
+    background: #333;
+    transform: scale(1.1);
+    color: #eee;
+  }
+
+  .card-links a svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .vibe {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    border-radius: 8px;
+    background: #222;
+    font-size: 0.85rem;
+    color: #aaa;
+    margin-top: 8px;
+  }
+
+  .vibe .emoji { font-size: 1.1rem; }
+
+  .no-results {
+    text-align: center;
+    padding: 60px 20px;
+    color: #666;
+    font-size: 1.1rem;
+    grid-column: 1 / -1;
+  }
+
+  .card-placeholder {
+    width: 100%;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1a1a1a;
+    color: #444;
+    font-size: 3rem;
+    font-weight: 900;
+  }
+
+  .badge-trivia {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: rgba(255, 215, 0, 0.9);
+    color: #000;
+    font-size: 0.7rem;
+    font-weight: 800;
+    padding: 4px 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    backdrop-filter: blur(4px);
+  }
+
+  .badge-trivia svg {
+    width: 12px;
+    height: 12px;
+  }
+
+  @media (max-width: 600px) {
+    .grid { grid-template-columns: 1fr; gap: 16px; }
+    .header { padding: 40px 16px 24px; }
+    .controls { flex-direction: column; }
+    .controls input { min-width: auto; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Shot n' a Beer</h1>
+  <div class="subtitle">Sale Archive</div>
+  <div class="subtitle">9/14/2023 - 10/24/2024</div>
+  <div class="count" id="count"></div>
+</div>
+
+<div class="controls">
+  <input type="text" id="search" placeholder="Search colorway, sculpt..." autocomplete="off">
+  <select id="saleType">
+    <option value="">All Sale Types</option>
+    <option value="FCFS">FCFS</option>
+    <option value="RNG">RNG</option>
+  </select>
+  <select id="sort">
+    <option value="date-asc">Date ↑</option>
+    <option value="date-desc">Date ↓</option>
+    <option value="number-asc">Number ↑</option>
+    <option value="number-desc">Number ↓</option>
+    <option value="name">Name A–Z</option>
+  </select>
+</div>
+
+<div class="grid" id="grid"></div>
+
+<script>
+const data = [];
+
+async function init() {
+  const resp = await fetch('snb_data.json');
+  const json = await resp.json();
+  data.push(...json);
+  document.getElementById('count').textContent = `${data.filter(d => d.number != null).length} sales`;
+  render();
+
+  document.getElementById('search').addEventListener('input', render);
+  document.getElementById('saleType').addEventListener('change', render);
+  document.getElementById('sort').addEventListener('change', render);
+}
+
+function loadSvg(name) {
+  return `<img src="assets/icons/${name}.svg" width="18" height="18" alt="${name}">`;
+}
+
+function getFiltered() {
+  const q = document.getElementById('search').value.toLowerCase();
+  const saleType = document.getElementById('saleType').value;
+  const sort = document.getElementById('sort').value;
+
+  let items = data.filter(d => {
+    if (saleType && (d.saleType || '').trim().toUpperCase() !== saleType) return false;
+    if (q) {
+      const searchText = `${d.colorway} ${d.sculpts} ${d.vibeCheckForLenny} ${d.notes || ''}`.toLowerCase();
+      if (!searchText.includes(q)) return false;
+    }
+    return true;
+  });
+
+  items.sort((a, b) => {
+    switch (sort) {
+      case 'date-asc': return a.date < b.date ? -1 : a.date > b.date ? 1 : 0;
+      case 'date-desc': return a.date < b.date ? 1 : a.date > b.date ? -1 : 0;
+      case 'number-asc': return a.number - b.number;
+      case 'number-desc': return b.number - a.number;
+      case 'name': return (a.colorway || '').localeCompare(b.colorway || '');
+      default: return a.number - b.number;
+    }
+  });
+
+  return items;
+}
+
+function render() {
+  const items = getFiltered();
+  const grid = document.getElementById('grid');
+
+  if (items.length === 0) {
+    grid.innerHTML = '<div class="no-results">No sales match your filters</div>';
+    return;
+  }
+
+  grid.innerHTML = items.map(d => {
+    const saleType = (d.saleType || '').trim().toUpperCase();
+    const saleIcon = saleType === 'FCFS' ? loadSvg('fcfs') : saleType === 'RNG' ? loadSvg('rng') : '';
+    const triviaBadge = d.trivia ? `
+      <div class="badge-trivia">
+        ${loadSvg('trivia')} Trivia
+      </div>` : '';
+    const imgHtml = d.imagePath
+      ? `<img class="card-image" src="${d.imagePath}" alt="${d.colorway}" loading="lazy">`
+      : `<div class="card-placeholder">?</div>`;
+    const imgurLink = d.image && d.image.includes('imgur.com')
+      ? `<a href="${d.image}" target="_blank" title="View on Imgur">${loadSvg('imgur')}</a>` : '';
+    const redditLink = d.reddit
+      ? `<a href="${d.reddit}" target="_blank" title="Reddit post">${loadSvg('reddit')}</a>` : '';
+    const formLink = d.form
+      ? `<a href="${d.form}" target="_blank" title="Entry form">${loadSvg('form')}</a>` : '';
+    const dateStr = d.date ? new Date(d.date).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }) : '';
+    const vibeEmoji = d.vibeCheckForLennyConverted || '';
+    const vibeText = d.vibeCheckForLenny || '';
+
+    return `
+      <div class="card">
+        ${triviaBadge}
+        <div style="position:relative;overflow:hidden">
+          ${imgHtml}
+        </div>
+        <div class="card-body">
+          <div class="card-number">Sale #${d.number}</div>
+          <div class="card-colorway">${d.colorway}</div>
+
+          <div class="card-meta">
+            ${saleIcon ? `<span class="tag ${saleType.toLowerCase()}">${saleIcon} ${saleType}</span>` : ''}
+            ${d.count != null ? `<span class="tag">${d.count} cap${d.count > 1 ? 's' : ''}</span>` : ''}
+            ${d.price != null ? `<span class="tag">$${d.price}</span>` : ''}
+          </div>
+
+          <div class="card-details">
+            <strong>Date:</strong> ${dateStr}<br>
+            ${d.sculpts ? `<strong>Sculpt(s):</strong> ${d.sculpts}<br>` : ''}
+            ${d.duration ? `<strong>Duration:</strong> ${d.duration}<br>` : ''}
+            ${d.notes ? `<strong>Notes:</strong> ${d.notes}<br>` : ''}
+          </div>
+
+          ${vibeEmoji ? `<div class="vibe"><span class="emoji">${vibeEmoji}</span> ${vibeText}</div>` : ''}
+
+          ${(redditLink || formLink || imgurLink) ? `
+            <div class="card-links">
+              ${redditLink}${formLink}${imgurLink}
+            </div>` : ''}
+        </div>
+      </div>`;
+  }).join('');
+}
+
+init();
+</script>
+</body>
+</html>

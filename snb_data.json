@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "number": 1,
     "date": "2023-09-14T00:00:00",
     "colorway": "I.H.B.L.",
@@ -19,6 +20,7 @@
     "imagePath": "assets/images/01_ihbl.jpg"
   },
   {
+    "id": 2,
     "number": 2,
     "date": "2023-09-21T00:00:00",
     "colorway": "I.L.B.L.",
@@ -38,6 +40,7 @@
     "imagePath": "assets/images/02_ilbl.jpg"
   },
   {
+    "id": 3,
     "number": 3,
     "date": "2023-09-28T00:00:00",
     "colorway": "I.A.B.L.",
@@ -57,6 +60,7 @@
     "imagePath": "assets/images/03_iabl.jpg"
   },
   {
+    "id": 4,
     "number": 4,
     "date": "2023-10-05T00:00:00",
     "colorway": "Autumn, The Man",
@@ -65,7 +69,7 @@
     "price": 55.0,
     "saleType": "RNG",
     "trivia": false,
-    "duration": "180m",
+    "duration": "03h00m",
     "vibeCheckForLenny": "Motivated",
     "form": "https://forms.gle/aYsXkMnowKyWM3e2A",
     "image": "https://i.imgur.com/HvWEEz2.jpg",
@@ -76,6 +80,7 @@
     "imagePath": "assets/images/04_autumn_the_man.jpg"
   },
   {
+    "id": 5,
     "number": 5,
     "date": "2023-10-12T00:00:00",
     "colorway": "forEVA (type 1)",
@@ -95,6 +100,7 @@
     "imagePath": "assets/images/05_foreva_type_1.jpeg"
   },
   {
+    "id": 6,
     "number": 6,
     "date": "2023-10-19T00:00:00",
     "colorway": "forEVA (type 2)",
@@ -114,6 +120,7 @@
     "imagePath": "assets/images/06_foreva_type_2.jpeg"
   },
   {
+    "id": 7,
     "number": 7,
     "date": "2023-10-26T00:00:00",
     "colorway": "The Numismatist",
@@ -133,6 +140,7 @@
     "imagePath": "assets/images/07_the_numismatist.jpeg"
   },
   {
+    "id": 8,
     "number": 8,
     "date": "2023-11-02T00:00:00",
     "colorway": "Mason's Rice",
@@ -152,6 +160,7 @@
     "imagePath": "assets/images/08_masons_rice.jpeg"
   },
   {
+    "id": 9,
     "number": 9,
     "date": "2023-11-09T00:00:00",
     "colorway": "Tar PeeWee",
@@ -171,6 +180,7 @@
     "imagePath": "assets/images/09_tar_peewee.jpeg"
   },
   {
+    "id": 10,
     "number": 10,
     "date": "2023-11-16T00:00:00",
     "colorway": "Blood-Brain Barrier",
@@ -190,6 +200,7 @@
     "imagePath": "assets/images/10_blood-brain_barrier.jpeg"
   },
   {
+    "id": 11,
     "number": 11,
     "date": "2023-11-23T00:00:00",
     "colorway": "The White Phial",
@@ -198,7 +209,7 @@
     "price": 55.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "300m",
+    "duration": "05h00m",
     "vibeCheckForLenny": "Motivated",
     "form": "https://forms.gle/JX528jwsrxLyDfuP7",
     "image": "https://imgur.com/a/9JlyEOP",
@@ -209,6 +220,7 @@
     "imagePath": "assets/images/11_the_white_phial.jpeg"
   },
   {
+    "id": 12,
     "number": 12,
     "date": "2023-11-30T00:00:00",
     "colorway": "C.K.D. (Custom Kitchen Delivery",
@@ -217,7 +229,7 @@
     "price": 55.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "180m",
+    "duration": "03h00m",
     "vibeCheckForLenny": "Really motivated",
     "form": "https://forms.gle/CqCPkaMQ5PghWTfv9",
     "image": "https://imgur.com/f4IvMbN",
@@ -228,6 +240,7 @@
     "imagePath": "assets/images/12_ckd_custom_kitchen_delivery.jpg"
   },
   {
+    "id": 13,
     "number": 13,
     "date": "2023-12-07T00:00:00",
     "colorway": "Hollandaise Diamond",
@@ -236,7 +249,7 @@
     "price": 55.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "60m",
+    "duration": "01h00m",
     "vibeCheckForLenny": "Free",
     "form": "https://forms.gle/1f7NBRxs6cEk91n67",
     "image": "https://imgur.com/a/hLYJjNI",
@@ -247,6 +260,7 @@
     "imagePath": "assets/images/13_hollandaise_diamond.jpeg"
   },
   {
+    "id": 14,
     "number": 14,
     "date": "2023-12-14T00:00:00",
     "colorway": "Smolder",
@@ -255,7 +269,7 @@
     "price": 55.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "240m",
+    "duration": "04h00m",
     "vibeCheckForLenny": "Excited",
     "form": "https://forms.gle/sN5X5mWYMwg9kV3W6",
     "image": "https://imgur.com/a/tT7wQen",
@@ -266,7 +280,8 @@
     "imagePath": "assets/images/14_smolder.jpeg"
   },
   {
-    "number": 14,
+    "id": 15,
+    "number": 15,
     "date": "2023-12-14T00:00:00",
     "colorway": "Serenity",
     "sculpts": "Fugu v3, Beveled Moonblank",
@@ -274,7 +289,7 @@
     "price": 55.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "240m",
+    "duration": "04h00m",
     "vibeCheckForLenny": "Free",
     "form": "https://forms.gle/sN5X5mWYMwg9kV3W6",
     "image": "https://imgur.com/a/GReZxg0",
@@ -282,10 +297,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\udd4a\ufe0f",
-    "imagePath": "assets/images/14_serenity.jpeg"
+    "imagePath": "assets/images/15_serenity.jpeg"
   },
   {
-    "number": 15,
+    "id": 16,
+    "number": 16,
     "date": "2023-12-21T00:00:00",
     "colorway": "Lake of Rot Swimmer",
     "sculpts": "Fugu v3, Moonblank",
@@ -293,7 +309,7 @@
     "price": 55.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "60m",
+    "duration": "01h00m",
     "vibeCheckForLenny": "Apathy",
     "form": "https://forms.gle/aDvJTmr55neJDbpM7",
     "image": "https://i.imgur.com/sUt3mWM.jpg",
@@ -301,10 +317,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\ude10",
-    "imagePath": "assets/images/15_lake_of_rot_swimmer.jpg"
+    "imagePath": "assets/images/16_lake_of_rot_swimmer.jpg"
   },
   {
-    "number": 16,
+    "id": 17,
+    "number": 17,
     "date": "2023-12-28T00:00:00",
     "colorway": "Glintstone",
     "sculpts": "Fugu v3, Moonblank",
@@ -320,10 +337,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\ude10",
-    "imagePath": "assets/images/16_glintstone.jpg"
+    "imagePath": "assets/images/17_glintstone.jpg"
   },
   {
-    "number": 17,
+    "id": 18,
+    "number": 18,
     "date": "2024-01-04T00:00:00",
     "colorway": "Flame of Frenzy",
     "sculpts": "Fugu v3, Moonblank",
@@ -339,10 +357,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\ude10",
-    "imagePath": "assets/images/17_flame_of_frenzy.jpeg"
+    "imagePath": "assets/images/18_flame_of_frenzy.jpeg"
   },
   {
-    "number": 18,
+    "id": 19,
+    "number": 19,
     "date": "2024-01-11T00:00:00",
     "colorway": "Lightning Spear",
     "sculpts": "Fugu v3, Moonblank",
@@ -358,10 +377,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\ude10",
-    "imagePath": "assets/images/18_lightning_spear.jpeg"
+    "imagePath": "assets/images/19_lightning_spear.jpeg"
   },
   {
-    "number": 19,
+    "id": 20,
+    "number": 20,
     "date": "2024-01-18T00:00:00",
     "colorway": "Gravity Well",
     "sculpts": "Fugu v3, Moonblank",
@@ -377,10 +397,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\ude15",
-    "imagePath": "assets/images/19_gravity_well.jpg"
+    "imagePath": "assets/images/20_gravity_well.jpg"
   },
   {
-    "number": 20,
+    "id": 21,
+    "number": 21,
     "date": "2024-01-25T00:00:00",
     "colorway": "Blackflame",
     "sculpts": "Fugu v3, Moonblank",
@@ -396,10 +417,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\ude10",
-    "imagePath": "assets/images/20_blackflame.jpg"
+    "imagePath": "assets/images/21_blackflame.jpg"
   },
   {
-    "number": 21,
+    "id": 22,
+    "number": 22,
     "date": "2024-02-01T00:00:00",
     "colorway": "Glintstone Stars",
     "sculpts": "Fugu v3, Moonblank",
@@ -415,10 +437,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\udcaa",
-    "imagePath": "assets/images/21_glintstone_stars.jpg"
+    "imagePath": "assets/images/22_glintstone_stars.jpg"
   },
   {
-    "number": 22,
+    "id": 23,
+    "number": 23,
     "date": "2024-02-08T00:00:00",
     "colorway": "Bloodboon",
     "sculpts": "Fugu v3, Moonblank",
@@ -434,10 +457,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\udd4a\ufe0f",
-    "imagePath": "assets/images/22_bloodboon.jpg"
+    "imagePath": "assets/images/23_bloodboon.jpg"
   },
   {
-    "number": 23,
+    "id": 24,
+    "number": 24,
     "date": "2024-02-15T00:00:00",
     "colorway": "Frozen Lightning",
     "sculpts": "Fugu v3, Moonblank",
@@ -453,10 +477,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\ude10",
-    "imagePath": "assets/images/23_frozen_lightning.jpg"
+    "imagePath": "assets/images/24_frozen_lightning.jpg"
   },
   {
-    "number": 24,
+    "id": 25,
+    "number": 25,
     "date": "2024-02-22T00:00:00",
     "colorway": "Dot-Dot B.P.",
     "sculpts": "Fugu v3, Beveled Moonblank",
@@ -464,7 +489,7 @@
     "price": 55.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "180m",
+    "duration": "03h00m",
     "vibeCheckForLenny": "Shocked",
     "form": "https://forms.gle/E1K7p8AfCG7ebvfj7",
     "image": "https://i.imgur.com/Bt3jtYH.jpg",
@@ -472,10 +497,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\ude32",
-    "imagePath": "assets/images/24_dot-dot_bp.jpg"
+    "imagePath": "assets/images/25_dot-dot_bp.jpg"
   },
   {
-    "number": 25,
+    "id": 26,
+    "number": 26,
     "date": "2024-02-29T00:00:00",
     "colorway": "Second Sight",
     "sculpts": "Fugu v3, Moonblank",
@@ -483,7 +509,7 @@
     "price": 55.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "60m",
+    "duration": "01h00m",
     "vibeCheckForLenny": "Elated",
     "form": "https://forms.gle/HVdKSNWqEdqFRY7H7",
     "image": "https://i.imgur.com/F0pgRE7.jpg",
@@ -491,10 +517,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\ude04",
-    "imagePath": "assets/images/25_second_sight.jpg"
+    "imagePath": "assets/images/26_second_sight.jpg"
   },
   {
-    "number": 26,
+    "id": 27,
+    "number": 27,
     "date": "2024-03-07T00:00:00",
     "colorway": "M.I.L.K.",
     "sculpts": "Fugu v3, Moonblank",
@@ -502,7 +529,7 @@
     "price": 55.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "60m",
+    "duration": "01h00m",
     "vibeCheckForLenny": "Shocked (MILKERS)",
     "form": "https://forms.gle/qS5A1wATvh333Hx3A",
     "image": "https://i.imgur.com/sK1KtFk.jpg",
@@ -510,10 +537,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\ude32\ud83e\udd5b",
-    "imagePath": "assets/images/26_milk.jpg"
+    "imagePath": "assets/images/27_milk.jpg"
   },
   {
-    "number": 27,
+    "id": 28,
+    "number": 28,
     "date": "2024-03-14T00:00:00",
     "colorway": "Impending Doom",
     "sculpts": "Fugu v3, Moonblank",
@@ -521,7 +549,7 @@
     "price": 55.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "60m",
+    "duration": "01h00m",
     "vibeCheckForLenny": "Happy",
     "form": "https://forms.gle/L8ztEcMtaxKsxZ4N7",
     "image": "https://i.imgur.com/9mBwO9E.jpg",
@@ -529,10 +557,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\ude0a",
-    "imagePath": "assets/images/27_impending_doom.jpg"
+    "imagePath": "assets/images/28_impending_doom.jpg"
   },
   {
-    "number": 28,
+    "id": 29,
+    "number": 29,
     "date": "2024-03-21T00:00:00",
     "colorway": "Sanguine Sight",
     "sculpts": "Fugu v3, Moonblank",
@@ -548,10 +577,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\udd4a\ufe0f",
-    "imagePath": "assets/images/28_sanguine_sight.jpg"
+    "imagePath": "assets/images/29_sanguine_sight.jpg"
   },
   {
-    "number": 29,
+    "id": 30,
+    "number": 30,
     "date": "2024-03-28T00:00:00",
     "colorway": "Tropicalia",
     "sculpts": "Fugu v3, Moonblank",
@@ -567,10 +597,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\ude10",
-    "imagePath": "assets/images/29_tropicalia.jpg"
+    "imagePath": "assets/images/30_tropicalia.jpg"
   },
   {
-    "number": 30,
+    "id": 31,
+    "number": 31,
     "date": "2024-04-04T00:00:00",
     "colorway": "The Watermelon Division",
     "sculpts": "Fugu v3, Moonblank",
@@ -578,7 +609,7 @@
     "price": 55.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "180m",
+    "duration": "03h00m",
     "vibeCheckForLenny": "Longing",
     "form": "https://forms.gle/Xfa7iA9uj7XS3USg6",
     "image": "https://i.imgur.com/dWHCBfh.jpg",
@@ -586,10 +617,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83e\udd7a",
-    "imagePath": "assets/images/30_the_watermelon_division.jpg"
+    "imagePath": "assets/images/31_the_watermelon_division.jpg"
   },
   {
-    "number": 31,
+    "id": 32,
+    "number": 32,
     "date": "2024-04-11T00:00:00",
     "colorway": "Horned Mello",
     "sculpts": "Fugu v3, Moonblank",
@@ -597,7 +629,7 @@
     "price": 55.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "180m",
+    "duration": "03h00m",
     "vibeCheckForLenny": "Shorting",
     "form": "https://forms.gle/E5Zr1nxrkr1h7YUG8",
     "image": "https://i.imgur.com/JXkHuG3.jpg",
@@ -605,10 +637,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\udcc9",
-    "imagePath": "assets/images/31_horned_mello.jpg"
+    "imagePath": "assets/images/32_horned_mello.jpg"
   },
   {
-    "number": 32,
+    "id": 33,
+    "number": 33,
     "date": "2024-04-18T00:00:00",
     "colorway": "Blasted Reggie",
     "sculpts": "Fugu v3, Moonblank",
@@ -616,7 +649,7 @@
     "price": 55.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "180m",
+    "duration": "03h00m",
     "vibeCheckForLenny": "Confused",
     "form": "https://forms.gle/FAjNA1xwqdjrxHBj7",
     "image": "https://i.imgur.com/WPwG03K.jpg",
@@ -624,10 +657,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\ude15",
-    "imagePath": "assets/images/32_blasted_reggie.jpg"
+    "imagePath": "assets/images/33_blasted_reggie.jpg"
   },
   {
-    "number": 33,
+    "id": 34,
+    "number": 34,
     "date": "2024-04-25T00:00:00",
     "colorway": "Mango Plasma",
     "sculpts": "Fugu v3, Moonblank",
@@ -635,7 +669,7 @@
     "price": 55.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "180m",
+    "duration": "03h00m",
     "vibeCheckForLenny": "Confused",
     "form": "https://forms.gle/1PkXMn14seBXJthb8",
     "image": "https://i.imgur.com/12Uwe9U.jpg",
@@ -643,10 +677,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\ude15",
-    "imagePath": "assets/images/33_mango_plasma.jpg"
+    "imagePath": "assets/images/34_mango_plasma.jpg"
   },
   {
-    "number": 34,
+    "id": 35,
+    "number": 35,
     "date": "2024-05-02T00:00:00",
     "colorway": "May-Hem",
     "sculpts": "Fugu v3, Moonblank",
@@ -654,7 +689,7 @@
     "price": 55.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "180m",
+    "duration": "03h00m",
     "vibeCheckForLenny": "Fun",
     "form": "https://forms.gle/q7HvGuEsDpwnjRvN9",
     "image": "https://i.imgur.com/jlSHhfA.jpg",
@@ -662,10 +697,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83e\udd73",
-    "imagePath": "assets/images/34_may-hem.jpg"
+    "imagePath": "assets/images/35_may-hem.jpg"
   },
   {
-    "number": 35,
+    "id": 36,
+    "number": 36,
     "date": "2024-05-09T00:00:00",
     "colorway": "Bubble hot-tear",
     "sculpts": "Fugu v3, Moonblank",
@@ -673,7 +709,7 @@
     "price": 55.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "180m",
+    "duration": "03h00m",
     "vibeCheckForLenny": "Shocked",
     "form": "https://forms.gle/Mp5YxrCNyjRVbFfL8",
     "image": "https://i.imgur.com/2dUZheo.jpg",
@@ -681,10 +717,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\ude32",
-    "imagePath": "assets/images/35_bubble_hot-tear.jpg"
+    "imagePath": "assets/images/36_bubble_hot-tear.jpg"
   },
   {
-    "number": 36,
+    "id": 37,
+    "number": 37,
     "date": "2024-05-16T00:00:00",
     "colorway": "Ice Blind",
     "sculpts": "Fugu v3, Moonblank",
@@ -692,7 +729,7 @@
     "price": 55.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "180m",
+    "duration": "03h00m",
     "vibeCheckForLenny": "Apathy",
     "form": "https://forms.gle/8XfJzdXYsToj5eft7",
     "image": "https://i.imgur.com/o2kiYCq.jpg",
@@ -700,10 +737,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\ude10",
-    "imagePath": "assets/images/36_ice_blind.jpg"
+    "imagePath": "assets/images/37_ice_blind.jpg"
   },
   {
-    "number": 37,
+    "id": 38,
+    "number": 38,
     "date": "2024-05-23T00:00:00",
     "colorway": "Transcendental Tincture",
     "sculpts": "Fugu v3, MoonDrop",
@@ -711,7 +749,7 @@
     "price": 110.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "180m",
+    "duration": "03h00m",
     "vibeCheckForLenny": "Sad",
     "form": "https://forms.gle/g7jEGo58Z8JW9qSQ9",
     "image": "https://imgur.com/a/28RHRzp",
@@ -719,10 +757,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\ude22",
-    "imagePath": "assets/images/37_transcendental_tincture.jpeg"
+    "imagePath": "assets/images/38_transcendental_tincture.jpeg"
   },
   {
-    "number": 38,
+    "id": 39,
+    "number": 39,
     "date": "2024-05-30T00:00:00",
     "colorway": "Manus Espiritus",
     "sculpts": "Fugu v3, Moonblank",
@@ -730,7 +769,7 @@
     "price": 110.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "180m",
+    "duration": "03h00m",
     "vibeCheckForLenny": "Apathy",
     "form": "https://forms.gle/i3T4Hj6xK4zBhBq57",
     "image": "https://i.imgur.com/u8q6Y0V.jpeg",
@@ -738,10 +777,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\ude10",
-    "imagePath": "assets/images/38_manus_espiritus.jpeg"
+    "imagePath": "assets/images/39_manus_espiritus.jpeg"
   },
   {
-    "number": 39,
+    "id": 40,
+    "number": 40,
     "date": "2024-06-06T00:00:00",
     "colorway": "Royal Decree",
     "sculpts": "Fugu v3, Moonblank",
@@ -749,7 +789,7 @@
     "price": 110.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "180m",
+    "duration": "03h00m",
     "vibeCheckForLenny": "Free",
     "form": "https://forms.gle/pPhdeSfEVXsfHw6Q9",
     "image": "https://i.imgur.com/0yJIX1W.jpg",
@@ -757,10 +797,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\udd4a\ufe0f",
-    "imagePath": "assets/images/39_royal_decree.jpg"
+    "imagePath": "assets/images/40_royal_decree.jpg"
   },
   {
-    "number": 40,
+    "id": 41,
+    "number": 41,
     "date": "2024-06-13T00:00:00",
     "colorway": "Parsnip (Type 1)",
     "sculpts": "Fugu v3, MoonDrop",
@@ -768,7 +809,7 @@
     "price": 110.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "180m",
+    "duration": "03h00m",
     "vibeCheckForLenny": "Apathy",
     "form": "https://forms.gle/jNEk3Rp6aaxqcE5J8",
     "image": "https://imgur.com/a/DeHCfbz",
@@ -776,10 +817,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\ude10",
-    "imagePath": "assets/images/40_parsnip_type_1.jpeg"
+    "imagePath": "assets/images/41_parsnip_type_1.jpeg"
   },
   {
-    "number": 41,
+    "id": 42,
+    "number": 42,
     "date": "2024-06-20T00:00:00",
     "colorway": "Parsnip (Type 2)",
     "sculpts": "Fugu v3, MoonDrop",
@@ -787,7 +829,7 @@
     "price": 110.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "180m",
+    "duration": "03h00m",
     "vibeCheckForLenny": "Sad (current)",
     "form": "https://forms.gle/BJp4PwEQXm9oGusDA",
     "image": "https://imgur.com/a/4kmATnk",
@@ -795,10 +837,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\ude22",
-    "imagePath": "assets/images/41_parsnip_type_2.jpeg"
+    "imagePath": "assets/images/42_parsnip_type_2.jpeg"
   },
   {
-    "number": 42,
+    "id": 43,
+    "number": 43,
     "date": "2024-06-27T00:00:00",
     "colorway": "Chiral Void Parsnip",
     "sculpts": "Fugu v3, MoonDrop",
@@ -806,7 +849,7 @@
     "price": 150.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "180m",
+    "duration": "03h00m",
     "vibeCheckForLenny": "Cool",
     "form": "https://forms.gle/RWrTadUnr7UDa6jp7",
     "image": "https://imgur.com/a/Aq7AoCw",
@@ -814,10 +857,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\ude0e",
-    "imagePath": "assets/images/42_chiral_void_parsnip.jpeg"
+    "imagePath": "assets/images/43_chiral_void_parsnip.jpeg"
   },
   {
-    "number": 43,
+    "id": 44,
+    "number": 44,
     "date": "2024-07-04T00:00:00",
     "colorway": "Mortal Coil Parsnip",
     "sculpts": "Fugu v3, Wormwood",
@@ -825,7 +869,7 @@
     "price": 110.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "180m",
+    "duration": "03h00m",
     "vibeCheckForLenny": "Apathy",
     "form": "https://forms.gle/5hA1tHXmvhtza3aX8",
     "image": "https://imgur.com/a/xFraAlc",
@@ -833,10 +877,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\ude10",
-    "imagePath": "assets/images/43_mortal_coil_parsnip.jpeg"
+    "imagePath": "assets/images/44_mortal_coil_parsnip.jpeg"
   },
   {
-    "number": 44,
+    "id": 45,
+    "number": 45,
     "date": "2024-07-11T00:00:00",
     "colorway": "Peppercorn (Type 1)",
     "sculpts": "Fugu v3, Moonblank",
@@ -844,7 +889,7 @@
     "price": 55.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "180m",
+    "duration": "03h00m",
     "vibeCheckForLenny": "Tired",
     "form": "https://forms.gle/Qu3kggyoUncxwTW58",
     "image": "https://i.imgur.com/N8jBZ7Z.jpeg",
@@ -852,10 +897,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\ude29",
-    "imagePath": "assets/images/44_peppercorn_type_1.jpeg"
+    "imagePath": "assets/images/45_peppercorn_type_1.jpeg"
   },
   {
-    "number": 45,
+    "id": 46,
+    "number": 46,
     "date": "2024-07-18T00:00:00",
     "colorway": "Scum Lurker",
     "sculpts": "Fugu v3, Wormwood",
@@ -863,7 +909,7 @@
     "price": 150.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "240m",
+    "duration": "04h00m",
     "vibeCheckForLenny": "Full",
     "form": "https://forms.gle/C6Qk3CPN9boo28Bp9",
     "image": "https://i.imgur.com/gGkzymN.jpeg",
@@ -871,10 +917,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83e\udd24",
-    "imagePath": "assets/images/45_scum_lurker.jpeg"
+    "imagePath": "assets/images/46_scum_lurker.jpeg"
   },
   {
-    "number": 46,
+    "id": 47,
+    "number": 47,
     "date": "2024-07-25T00:00:00",
     "colorway": "Voice of the Deep",
     "sculpts": "Fugu v3, Moonblank",
@@ -882,7 +929,7 @@
     "price": 150.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "180m",
+    "duration": "03h00m",
     "vibeCheckForLenny": "Hungry",
     "form": "https://forms.gle/XqMKMBfmfXaANcvM8",
     "image": "https://imgur.com/a/IYubozu",
@@ -890,10 +937,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83c\udf7d\ufe0f",
-    "imagePath": "assets/images/46_voice_of_the_deep.jpeg"
+    "imagePath": "assets/images/47_voice_of_the_deep.jpeg"
   },
   {
-    "number": 47,
+    "id": 48,
+    "number": 48,
     "date": "2024-08-01T00:00:00",
     "colorway": "Fresh Squeezed",
     "sculpts": "Fugu v3, MoonDrop",
@@ -901,7 +949,7 @@
     "price": 110.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "180m",
+    "duration": "03h00m",
     "vibeCheckForLenny": "Sleepy",
     "form": "https://forms.gle/nx6q1ZqeBXMCFvG38",
     "image": "https://i.imgur.com/2bGQPEl.jpeg",
@@ -909,10 +957,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\ude34",
-    "imagePath": "assets/images/47_fresh_squeezed.jpeg"
+    "imagePath": "assets/images/48_fresh_squeezed.jpeg"
   },
   {
-    "number": 48,
+    "id": 49,
+    "number": 49,
     "date": "2024-08-08T00:00:00",
     "colorway": "Sickolo",
     "sculpts": "Picollo re-issue, OG Moondrop",
@@ -920,7 +969,7 @@
     "price": 150.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "180m",
+    "duration": "03h00m",
     "vibeCheckForLenny": "Oofles",
     "form": "https://forms.gle/BZ6a9YP1maaQKVnr9",
     "image": "https://imgur.com/a/qNbm3jf",
@@ -928,10 +977,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\ude2c",
-    "imagePath": "assets/images/48_sickolo.jpeg"
+    "imagePath": "assets/images/49_sickolo.jpeg"
   },
   {
-    "number": 49,
+    "id": 50,
+    "number": 50,
     "date": "2024-08-15T00:00:00",
     "colorway": "Mentalo",
     "sculpts": "Picollo re-issue, OG Moondrop",
@@ -939,7 +989,7 @@
     "price": 150.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "180m",
+    "duration": "03h00m",
     "vibeCheckForLenny": "Hot",
     "form": "https://forms.gle/a25gHx4W2Z2uTUWe7",
     "image": "https://i.imgur.com/NIsvoSO.jpg",
@@ -947,10 +997,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83e\udd75",
-    "imagePath": "assets/images/49_mentalo.jpg"
+    "imagePath": "assets/images/50_mentalo.jpg"
   },
   {
-    "number": 50,
+    "id": 51,
+    "number": 51,
     "date": "2024-08-22T00:00:00",
     "colorway": "Jugga-Lo",
     "sculpts": "Picollo re-issue, OG Moondrop",
@@ -958,7 +1009,7 @@
     "price": 110.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "180m",
+    "duration": "03h00m",
     "vibeCheckForLenny": "Sore",
     "form": "https://forms.gle/BfLTUAdMwGaeGRPF9",
     "image": "https://i.imgur.com/s9hF0Jk.jpeg",
@@ -966,10 +1017,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\ude2b",
-    "imagePath": "assets/images/50_jugga-lo.jpeg"
+    "imagePath": "assets/images/51_jugga-lo.jpeg"
   },
   {
-    "number": 51,
+    "id": 52,
+    "number": 52,
     "date": "2024-08-29T00:00:00",
     "colorway": "gLOam-eyed",
     "sculpts": "Picollo re-issue, OG Moondrop",
@@ -977,7 +1029,7 @@
     "price": 150.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "180m",
+    "duration": "03h00m",
     "vibeCheckForLenny": "VERY SORE",
     "form": "https://forms.gle/3hHQs8DqQaYfuREXA",
     "image": "https://imgur.com/a/M166F1f",
@@ -985,10 +1037,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\ude2b\ud83d\udd25",
-    "imagePath": "assets/images/51_gloam-eyed.jpeg"
+    "imagePath": "assets/images/52_gloam-eyed.jpeg"
   },
   {
-    "number": 52,
+    "id": 53,
+    "number": 53,
     "date": "2024-09-05T00:00:00",
     "colorway": "DiabLO",
     "sculpts": "Picollo re-issue, OG Moondrop",
@@ -996,7 +1049,7 @@
     "price": 150.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "180m",
+    "duration": "03h00m",
     "vibeCheckForLenny": "Hungry again",
     "form": "https://forms.gle/y9mCSfijT2tqZmS98",
     "image": "https://imgur.com/a/CFIIUog",
@@ -1004,10 +1057,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83c\udf7d\ufe0f",
-    "imagePath": "assets/images/52_diablo.jpeg"
+    "imagePath": "assets/images/53_diablo.jpeg"
   },
   {
-    "number": 53,
+    "id": 54,
+    "number": 54,
     "date": "2024-09-12T00:00:00",
     "colorway": "MelLo Nights",
     "sculpts": "Picollo re-issue, OG Moondrop",
@@ -1015,7 +1069,7 @@
     "price": 150.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "180m",
+    "duration": "03h00m",
     "vibeCheckForLenny": "Super hungry",
     "form": "https://forms.gle/4ANBpYDTTv3DV76B6",
     "image": "https://imgur.com/a/fO9GxPV",
@@ -1023,10 +1077,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83e\udd24\ud83d\udd25",
-    "imagePath": "assets/images/53_mello_nights.jpeg"
+    "imagePath": "assets/images/54_mello_nights.jpeg"
   },
   {
-    "number": 54,
+    "id": 55,
+    "number": 55,
     "date": "2024-09-19T00:00:00",
     "colorway": "Meteoric Olive",
     "sculpts": "Fugu v3 + Moonblank",
@@ -1034,7 +1089,7 @@
     "price": 55.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "180m",
+    "duration": "03h00m",
     "vibeCheckForLenny": "Colors",
     "form": "https://forms.gle/YrUAFjeggV49TL8q6",
     "image": "https://imgur.com/a/PbOeQ66",
@@ -1042,10 +1097,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83c\udf08",
-    "imagePath": "assets/images/54_meteoric_olive.jpeg"
+    "imagePath": "assets/images/55_meteoric_olive.jpeg"
   },
   {
-    "number": 55,
+    "id": 56,
+    "number": 56,
     "date": "2024-09-26T00:00:00",
     "colorway": "Cellular Jeffrey",
     "sculpts": "Fugu v3 + Moonblank",
@@ -1053,7 +1109,7 @@
     "price": 55.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "180m",
+    "duration": "03h00m",
     "vibeCheckForLenny": "Wet",
     "form": "https://forms.gle/8emTGy3nYM3fnuPK8",
     "image": "https://imgur.com/a/ajHZ88Z",
@@ -1061,10 +1117,71 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83d\udca7",
-    "imagePath": "assets/images/55_cellular_jeffrey.jpeg"
+    "imagePath": "assets/images/56_cellular_jeffrey.jpeg"
   },
   {
-    "number": 59,
+    "id": 57,
+    "number": null,
+    "date": "2024-10-03T00:00:00",
+    "colorway": "N/A",
+    "sculpts": null,
+    "count": null,
+    "price": null,
+    "saleType": null,
+    "trivia": false,
+    "duration": null,
+    "vibeCheckForLenny": null,
+    "form": null,
+    "image": null,
+    "reddit": null,
+    "notes": "No sale",
+    "fullCatalogLink": null,
+    "vibeCheckForLennyConverted": "",
+    "imagePath": null
+  },
+  {
+    "id": 58,
+    "number": null,
+    "date": "2024-10-10T00:00:00",
+    "colorway": "N/A",
+    "sculpts": null,
+    "count": null,
+    "price": null,
+    "saleType": null,
+    "trivia": false,
+    "duration": null,
+    "vibeCheckForLenny": null,
+    "form": null,
+    "image": null,
+    "reddit": null,
+    "notes": "No sale",
+    "fullCatalogLink": null,
+    "vibeCheckForLennyConverted": "",
+    "imagePath": null
+  },
+  {
+    "id": 59,
+    "number": null,
+    "date": "2024-10-17T00:00:00",
+    "colorway": "N/A",
+    "sculpts": null,
+    "count": null,
+    "price": null,
+    "saleType": null,
+    "trivia": false,
+    "duration": null,
+    "vibeCheckForLenny": null,
+    "form": null,
+    "image": null,
+    "reddit": null,
+    "notes": "No sale",
+    "fullCatalogLink": null,
+    "vibeCheckForLennyConverted": "",
+    "imagePath": null
+  },
+  {
+    "id": 60,
+    "number": 57,
     "date": "2024-10-24T00:00:00",
     "colorway": "Confetti Sunset",
     "sculpts": "Fugu v3, Moonblank",
@@ -1072,7 +1189,7 @@
     "price": 225.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "1440m",
+    "duration": "24h00m",
     "vibeCheckForLenny": "Bloopy",
     "form": "https://forms.gle/UZp7CZvmJWjA75RF7",
     "image": "https://imgur.com/a/7ffrst2",
@@ -1080,10 +1197,11 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83e\udee7",
-    "imagePath": "assets/images/59_confetti_sunset.jpeg"
+    "imagePath": "assets/images/57_confetti_sunset.jpeg"
   },
   {
-    "number": 60,
+    "id": 61,
+    "number": 58,
     "date": "2024-10-24T00:00:00",
     "colorway": "Various",
     "sculpts": "Moonblank",
@@ -1091,7 +1209,7 @@
     "price": 10.0,
     "saleType": "RNG",
     "trivia": true,
-    "duration": "1440m",
+    "duration": "24h00m",
     "vibeCheckForLenny": "Still bloopy",
     "form": "https://forms.gle/mzVna6513HB8ETcY6",
     "image": "https://imgur.com/a/A50WvKP",
@@ -1099,6 +1217,6 @@
     "notes": null,
     "fullCatalogLink": null,
     "vibeCheckForLennyConverted": "\ud83e\udee7",
-    "imagePath": "assets/images/60_various.jpeg"
+    "imagePath": "assets/images/58_various.jpeg"
   }
 ]
